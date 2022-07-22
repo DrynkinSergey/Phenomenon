@@ -227,6 +227,8 @@ nav li:hover {
 .our__mission-content-text {
     max-width: 500px;
     color: white;
+    font-size: 1.7rem;
+    padding: 100px 0;
 }
 .our__mission-content-text button {
     background-color: #ECB3CB;
@@ -540,6 +542,10 @@ footer ul li:hover {
     .our__partners_list button{
         margin: 10px auto;
     }
+
+    .our__mission-content-text{
+        padding: 0;
+    }
     .our__mission-content{
         display: flex;
         flex-direction: column-reverse;
@@ -600,6 +606,7 @@ footer ul li:hover {
     }
     .images{
         display: flex;
+        transform: scale(0.8);
     }
     .images img{
         width: 28%;
@@ -636,6 +643,9 @@ footer ul li:hover {
         text-align: right;
         padding-right: 10px;
 
+    }
+    .subscribe{
+        padding: 75px 0;
     }
     .modal{
         position: fixed;
@@ -696,7 +706,17 @@ footer ul li:hover {
         font-size: 18px;
         padding: 15px 12px;
     }
-
+    .spotify-content p:nth-child(1){
+        max-width: 80%;
+    }
+    .spotify-content img:nth-child(2){
+        width: 20%;
+    }
+    .analysis-type h1{
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
 }
 
 @keyframes showModal {
